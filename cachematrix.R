@@ -5,7 +5,7 @@
 ## 'setinv' allows to manually set the inverse matrix
 ## 'getinv' returns the stored inverse matrix
 
-makeCacheMatrix <- function(x = numeric(),mat = numeric()) {
+makeCacheMatrix <- function(x = numeric()) {
     #set inverse to null since it has not been calculated
     inv <- NULL
     
